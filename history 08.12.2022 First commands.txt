@@ -1,0 +1,66 @@
+   0 whoami
+   1 vasya
+   2 pwd
+   3 ls 
+   4 ls --help
+   5 ls --helo
+   6 clear
+   7 ls -a
+   8 ls -1
+   9 ls -l
+  10 ls -al
+  11 cd ..
+  12 ls
+  13 cd /home
+  14 cd ..
+  15 cd /home/
+  16 pwd
+  17 mkdir user1
+  18 ls
+  19 cd /user1
+  20 cd user1/
+  21 mkdir task1
+  22 ls
+  23 cd task1/
+  24 touch file1.txt
+  25 ls
+  26 cd ..
+  27 ls
+  28 tree
+  29 clear
+  30 cd /
+  31 tree
+  32 clear
+  33 ls --help
+  34 cd /home/
+  35 ls -R
+  36 cd
+  37 mkdir /home/user2
+  38 mkdir /home/user2/task2
+  39 touch /home/user2/task2/file2.txt
+  40 mkdir /home/user3/task3
+  41 mkdir --help
+  42 mkdir -p /home/user3/task3
+  43 touch /home/user3/task3/file3.txt
+  44 mkdir /home/user1/task1/1 /home/user2/task2/2 /home/user3/task3/3
+  45 touch /home/user1/task1/1/1.txt /home/user2/task2/2/2.txt /home/user3/3/3.txt
+  46 mkdir /home/user1/task1/1 /home/user2/task2/2 /home/user3/task3/3/3.txt
+  47 touch /home/user1/123.txt /home/user1/345.txt
+  48 tree /home/
+  49 clear
+  50 mkdir /opt/ivan && touch /opt/ivan/ivan.txt 
+  51 tree /opt/
+  52 cp /home/user1/task1/file1.txt /tmp/file.txt
+  53 cp /home/user1 /tmp
+  54 cp --help
+  55 clear
+  56 cp -r /home/user1 /tmp
+  57 tree /tmp/
+  58 rmdir /home/user1
+  59 rmdir --help
+  60 rm --help
+  61 clear
+  62 rm /home/user1
+  63 rm -rf /home/user1
+  64 history
+  65 history > history.txt 
